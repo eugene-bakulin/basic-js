@@ -27,7 +27,7 @@ function sortByHeight(arr) {
   for (let i=0; i < arrOfObj.length; i++) {
     filtered.splice(arrOfObj[i]["pos"], 0, arrOfObj[i]["value"]);
   }
-  console.log(filtered);
+  return filtered;
 
 
 
